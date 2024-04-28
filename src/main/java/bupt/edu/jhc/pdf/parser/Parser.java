@@ -1,7 +1,8 @@
 package bupt.edu.jhc.pdf.parser;
 
-import bupt.edu.jhc.pdf.parser.core.extraction.ExtractTableInfoFromPDF;
-import bupt.edu.jhc.pdf.parser.core.handler.UnzipTableInfo;
+import bupt.edu.jhc.pdf.parser.core.extraction.adobe.AdobeProcess;
+import bupt.edu.jhc.pdf.parser.core.extraction.grobid.GrobidProcess;
+import bupt.edu.jhc.pdf.parser.core.extraction.spire.SpireProcess;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -12,7 +13,9 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class Parser {
     public static void main(String[] args) {
-        var outputPath = ExtractTableInfoFromPDF.exec("G:\\PDF Data\\高强韧钛合金文献（60篇）\\2022-2024年\\A titanium-nitrogen alloy with ultrahigh strength by ball milling and spark plasma sintering.pdf");
-        UnzipTableInfo.exec(outputPath);
+        var dir = "G:\\PDF Data";
+        AdobeProcess.exec(dir);
+        GrobidProcess.exec(dir);
+        SpireProcess.exec(dir);
     }
 }

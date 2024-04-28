@@ -7,4 +7,5 @@ package bupt.edu.jhc.pdf.parser.config;
  */
 public interface ConfigKeys {
     String CLIENT_CREDENTIAL_PREFIX = "clientCredentials";
+    String GROBID_CONFIG_PREFIX = "grobid";
 }

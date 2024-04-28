@@ -1,6 +1,6 @@
 package bupt.edu.jhc.pdf.parser;
 
-import bupt.edu.jhc.pdf.parser.core.extraction.ExtractTableInfoFromPDF;
+import bupt.edu.jhc.pdf.parser.core.extraction.adobe.ExtractTableInfoFromPDF;
 import bupt.edu.jhc.pdf.parser.core.handler.UnzipTableInfo;
 import org.junit.Test;
 

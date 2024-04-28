@@ -9,6 +9,7 @@ import bupt.edu.jhc.pdf.parser.util.ConfigUtils;
  */
 public class ConfigFactory {
     private static volatile ClientCredentials clientCredentials;
+    private static volatile GrobidClientConfig grobidClientConfig;
 
     /**
      * 获取 pdfservices-api-credentials 配置信息
@@ -24,5 +25,21 @@ public class ConfigFactory {
             }
         }
         return clientCredentials;
+    }
+
+    /**
+     * 获取 grobid client 配置
+     *
+     * @return
+     */
+    public static GrobidClientConfig getGrobidClientConfig() {
+        if (grobidClientConfig == null) {
+            synchronized (ConfigFactory.class) {
+                if (grobidClientConfig == null) {
+                    grobidClientConfig = ConfigUtils.loadConfig(GrobidClientConfig.class, ConfigKeys.GROBID_CONFIG_PREFIX);
+                }
+            }
+        }
+        return grobidClientConfig;
     }
 }
