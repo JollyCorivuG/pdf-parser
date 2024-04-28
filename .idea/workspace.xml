@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88e5a4fc-b079-41b7-ae05-0c7853b1e149" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bupt/edu/jhc/pdf/parser/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bupt/edu/jhc/pdf/parser/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bupt/edu/jhc/pdf/parser/config/ConfigFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bupt/edu/jhc/pdf/parser/config/ConfigFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bupt/edu/jhc/pdf/parser/config/ConfigKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bupt/edu/jhc/pdf/parser/config/ConfigKeys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bupt/edu/jhc/pdf/parser/core/extraction/ExtractTableInfoFromPDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bupt/edu/jhc/pdf/parser/core/extraction/adobe/ExtractTableInfoFromPDF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bupt/edu/jhc/pdf/parser/ConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bupt/edu/jhc/pdf/parser/ConfigTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bupt/edu/jhc/pdf/parser/ExtractTableInfoFromPDFTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bupt/edu/jhc/pdf/parser/ExtractTableInfoFromPDFTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,32 +52,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.ConfigTest.testGetClientCredentials.executor": "Run",
-    "JUnit.ConfigTest.testGetGrobidClientConfig.executor": "Run",
-    "JUnit.ExtractFiguresFromPDFTest.test.executor": "Debug",
-    "JUnit.ExtractTableInfoFromPDFTest.testExtractTableInfoFromPDF.executor": "Run",
-    "JUnit.FigureParserFromXmlTest.test.executor": "Run",
-    "Maven.pdf-parser [clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/pdf-parser/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "库",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.rmicompiler",
-    "vue.rearranger.settings.migration": "true",
-    "应用程序.Parser.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.ConfigTest.testGetClientCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConfigTest.testGetGrobidClientConfig.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ExtractFiguresFromPDFTest.test.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ExtractTableInfoFromPDFTest.testExtractTableInfoFromPDF.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FigureParserFromXmlTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pdf-parser [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/pdf-parser/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;库&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.rmicompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.Parser.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\pdf-parser\src\main\resources" />
@@ -204,6 +198,7 @@
       <workItem from="1713924048741" duration="6280000" />
       <workItem from="1713942922889" duration="3404000" />
       <workItem from="1713946365114" duration="1856000" />
+      <workItem from="1714269039337" duration="2660000" />
     </task>
     <servers />
   </component>
